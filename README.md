@@ -58,14 +58,8 @@ Dynamic error messages appear when validation criteria are not met, ensuring cle
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 7.How to Deploy
-You can deploy this project on any static web hosting platform, such as:
-- **GitHub Pages**
 
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 8.Future Enhancements
+## 7.Future Enhancements
 - Backend integration for form submissions using a server-side language (e.g., PHP, Node.js).
 - Database connectivity for storing user messages.
 - Adding Captcha to prevent spam submissions.
