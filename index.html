@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="contact-container">
+    <form id="contactForm" class="contact-form">
+      <h2>Contact Us</h2>
+
+      <!-- Name Field -->
+      <div class="input-field">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        <small class="error-message" id="nameError"></small>
+      </div>
+
+      <!-- Email Field -->
+      <div class="input-field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+        <small class="error-message" id="emailError"></small>
+      </div>
+
+      <!-- Phone Field -->
+      <div class="input-field">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required />
+        <small class="error-message" id="phoneError"></small>
+      </div>
+
+      <!-- Message Field -->
+      <div class="input-field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+        <small class="error-message" id="messageError"></small>
+      </div>
+
+      <!-- Checkbox for Terms -->
+      <div class="checkbox-field">
+        <input type="checkbox" id="terms" name="terms" />
+        <label for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+        <small class="error-message" id="termsError"></small>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2024 Shahid Shaikh. All rights reserved.</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
